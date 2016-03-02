@@ -15,6 +15,12 @@
 		AD29CD421C86D3BA0042149C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD29CD401C86D3BA0042149C /* LaunchScreen.storyboard */; };
 		AD29CD4D1C86D3BA0042149C /* MapSample2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29CD4C1C86D3BA0042149C /* MapSample2Tests.m */; };
 		AD29CD581C86D3BA0042149C /* MapSample2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29CD571C86D3BA0042149C /* MapSample2UITests.m */; };
+		AD29CD671C86E0610042149C /* MapVCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29CD661C86E0610042149C /* MapVCtr.m */; };
+		AD29CD691C86E2B90042149C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD29CD681C86E2B90042149C /* MapKit.framework */; };
+		AD29CD6C1C86EB610042149C /* LocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29CD6B1C86EB610042149C /* LocationUtil.m */; };
+		AD29CD711C86ECB20042149C /* HUDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29CD6E1C86ECB20042149C /* HUDUtil.m */; };
+		AD29CD721C86ECB20042149C /* Spinner.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29CD701C86ECB20042149C /* Spinner.m */; };
+		AD29CD751C86ED310042149C /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29CD741C86ED310042149C /* MapViewAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		AD29CD531C86D3BA0042149C /* MapSample2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapSample2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD29CD571C86D3BA0042149C /* MapSample2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapSample2UITests.m; sourceTree = "<group>"; };
 		AD29CD591C86D3BA0042149C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD29CD651C86E0610042149C /* MapVCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapVCtr.h; sourceTree = "<group>"; };
+		AD29CD661C86E0610042149C /* MapVCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapVCtr.m; sourceTree = "<group>"; };
+		AD29CD681C86E2B90042149C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AD29CD6A1C86EB610042149C /* LocationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationUtil.h; sourceTree = "<group>"; };
+		AD29CD6B1C86EB610042149C /* LocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationUtil.m; sourceTree = "<group>"; };
+		AD29CD6D1C86ECB20042149C /* HUDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDUtil.h; sourceTree = "<group>"; };
+		AD29CD6E1C86ECB20042149C /* HUDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDUtil.m; sourceTree = "<group>"; };
+		AD29CD6F1C86ECB20042149C /* Spinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spinner.h; sourceTree = "<group>"; };
+		AD29CD701C86ECB20042149C /* Spinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spinner.m; sourceTree = "<group>"; };
+		AD29CD731C86ED310042149C /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
+		AD29CD741C86ED310042149C /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD29CD691C86E2B90042149C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,7 @@
 		AD29CD261C86D3BA0042149C = {
 			isa = PBXGroup;
 			children = (
+				AD29CD681C86E2B90042149C /* MapKit.framework */,
 				AD29CD311C86D3BA0042149C /* MapSample2 */,
 				AD29CD4B1C86D3BA0042149C /* MapSample2Tests */,
 				AD29CD561C86D3BA0042149C /* MapSample2UITests */,
@@ -105,6 +124,16 @@
 				AD29CD361C86D3BA0042149C /* AppDelegate.m */,
 				AD29CD381C86D3BA0042149C /* ViewController.h */,
 				AD29CD391C86D3BA0042149C /* ViewController.m */,
+				AD29CD651C86E0610042149C /* MapVCtr.h */,
+				AD29CD661C86E0610042149C /* MapVCtr.m */,
+				AD29CD6A1C86EB610042149C /* LocationUtil.h */,
+				AD29CD6B1C86EB610042149C /* LocationUtil.m */,
+				AD29CD6D1C86ECB20042149C /* HUDUtil.h */,
+				AD29CD6E1C86ECB20042149C /* HUDUtil.m */,
+				AD29CD6F1C86ECB20042149C /* Spinner.h */,
+				AD29CD701C86ECB20042149C /* Spinner.m */,
+				AD29CD731C86ED310042149C /* MapViewAnnotation.h */,
+				AD29CD741C86ED310042149C /* MapViewAnnotation.m */,
 				AD29CD3B1C86D3BA0042149C /* Main.storyboard */,
 				AD29CD3E1C86D3BA0042149C /* Assets.xcassets */,
 				AD29CD401C86D3BA0042149C /* LaunchScreen.storyboard */,
@@ -271,6 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD29CD3A1C86D3BA0042149C /* ViewController.m in Sources */,
+				AD29CD671C86E0610042149C /* MapVCtr.m in Sources */,
+				AD29CD751C86ED310042149C /* MapViewAnnotation.m in Sources */,
+				AD29CD6C1C86EB610042149C /* LocationUtil.m in Sources */,
+				AD29CD711C86ECB20042149C /* HUDUtil.m in Sources */,
+				AD29CD721C86ECB20042149C /* Spinner.m in Sources */,
 				AD29CD371C86D3BA0042149C /* AppDelegate.m in Sources */,
 				AD29CD341C86D3BA0042149C /* main.m in Sources */,
 			);
@@ -414,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapSample2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thirdeyeinc.sampledata.MapSample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapSample2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thirdeyeinc.sampledata.MapSample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
